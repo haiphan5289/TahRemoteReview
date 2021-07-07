@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15104E11198F99EC000D4CE7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15104E10198F99EC000D4CE7 /* AudioToolbox.framework */; };
+		151E4105198A8A8A00FE3EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151E4104198A8A8A00FE3EE5 /* Foundation.framework */; };
+		151E4107198A8A8A00FE3EE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151E4106198A8A8A00FE3EE5 /* CoreGraphics.framework */; };
+		151E4109198A8A8A00FE3EE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151E4108198A8A8A00FE3EE5 /* UIKit.framework */; };
+		151E4128198A8A8A00FE3EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151E4104198A8A8A00FE3EE5 /* Foundation.framework */; };
+		151E4129198A8A8A00FE3EE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151E4108198A8A8A00FE3EE5 /* UIKit.framework */; };
+		151E414E198A910B00FE3EE5 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E414D198A910B00FE3EE5 /* CustomCell.m */; };
+		152E6C8B19A36EC100B8DFE6 /* TAHbleTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152E6C8A19A36EC100B8DFE6 /* TAHbleTableController.m */; };
+		15777B9B198F6DDD009FDAB7 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15777B9A198F6DDD009FDAB7 /* SettingsViewController.m */; };
+		15777BA1198F6DEF009FDAB7 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15777BA0198F6DEF009FDAB7 /* MediaViewController.m */; };
+		15777BA4198F6DF6009FDAB7 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15777BA3198F6DF6009FDAB7 /* SocialViewController.m */; };
+		15A99ACE1A654C9E0066AB4E /* TAHble.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A99ACD1A654C9E0066AB4E /* TAHble.m */; };
+		15C958EE1A91BF1F00F8CAC9 /* RemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C958ED1A91BF1F00F8CAC9 /* RemoteViewController.m */; };
+		844F378926935F0F000C9F9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844F375D26935F0F000C9F9F /* InfoPlist.strings */; };
+		844F378A26935F0F000C9F9F /* web forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F375F26935F0F000C9F9F /* web forward.png */; };
+		844F378B26935F0F000C9F9F /* circbut.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376026935F0F000C9F9F /* circbut.png */; };
+		844F378C26935F0F000C9F9F /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376126935F0F000C9F9F /* ok.png */; };
+		844F378D26935F0F000C9F9F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F376326935F0F000C9F9F /* HomeViewController.m */; };
+		844F378E26935F0F000C9F9F /* Main_iPhone3.5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F376426935F0F000C9F9F /* Main_iPhone3.5.storyboard */; };
+		844F378F26935F0F000C9F9F /* tah rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376526935F0F000C9F9F /* tah rabbit.png */; };
+		844F379026935F0F000C9F9F /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376626935F0F000C9F9F /* up.png */; };
+		844F379126935F0F000C9F9F /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376726935F0F000C9F9F /* power.png */; };
+		844F379226935F0F000C9F9F /* volup.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376826935F0F000C9F9F /* volup.png */; };
+		844F379326935F0F000C9F9F /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376926935F0F000C9F9F /* fb.png */; };
+		844F379426935F0F000C9F9F /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376A26935F0F000C9F9F /* down.png */; };
+		844F379526935F0F000C9F9F /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376B26935F0F000C9F9F /* bottom.png */; };
+		844F379626935F0F000C9F9F /* web backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376C26935F0F000C9F9F /* web backward.png */; };
+		844F379726935F0F000C9F9F /* voldown.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376D26935F0F000C9F9F /* voldown.png */; };
+		844F379826935F0F000C9F9F /* remote.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376E26935F0F000C9F9F /* remote.png */; };
+		844F379926935F0F000C9F9F /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F376F26935F0F000C9F9F /* home.png */; };
+		844F379A26935F0F000C9F9F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F377026935F0F000C9F9F /* Main_iPad.storyboard */; };
+		844F379B26935F0F000C9F9F /* sound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 844F377226935F0F000C9F9F /* sound2.wav */; };
+		844F379C26935F0F000C9F9F /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F377326935F0F000C9F9F /* left.png */; };
+		844F379D26935F0F000C9F9F /* sound1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 844F377426935F0F000C9F9F /* sound1.wav */; };
+		844F379E26935F0F000C9F9F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F377626935F0F000C9F9F /* Main_iPhone.storyboard */; };
+		844F379F26935F0F000C9F9F /* remotebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F377726935F0F000C9F9F /* remotebg.png */; };
+		844F37A026935F0F000C9F9F /* chdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F377826935F0F000C9F9F /* chdown.png */; };
+		844F37A126935F0F000C9F9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F377926935F0F000C9F9F /* main.m */; };
+		844F37A226935F0F000C9F9F /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F377A26935F0F000C9F9F /* twitter.png */; };
+		844F37A326935F0F000C9F9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844F377B26935F0F000C9F9F /* Images.xcassets */; };
+		844F37A426935F0F000C9F9F /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F377C26935F0F000C9F9F /* share.png */; };
+		844F37A526935F0F000C9F9F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F377D26935F0F000C9F9F /* Main_iPad.storyboard */; };
+		844F37A626935F0F000C9F9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F377F26935F0F000C9F9F /* AppDelegate.m */; };
+		844F37A726935F0F000C9F9F /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F378026935F0F000C9F9F /* frame.png */; };
+		844F37A826935F0F000C9F9F /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F378126935F0F000C9F9F /* youtube.png */; };
+		844F37A926935F0F000C9F9F /* mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F378226935F0F000C9F9F /* mute.png */; };
+		844F37AA26935F0F000C9F9F /* chup.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F378326935F0F000C9F9F /* chup.png */; };
+		844F37AB26935F0F000C9F9F /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F378426935F0F000C9F9F /* setting.png */; };
+		844F37AD26935F0F000C9F9F /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F378626935F0F000C9F9F /* right.png */; };
+		844F37AE26935F0F000C9F9F /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 844F378726935F0F000C9F9F /* reload.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		151E412A198A8A8A00FE3EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151E40F9198A8A8A00FE3EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151E4100198A8A8A00FE3EE5;
+			remoteInfo = TAH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15104E10198F99EC000D4CE7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		151E4101198A8A8A00FE3EE5 /* Tah Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tah Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		151E4104198A8A8A00FE3EE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		151E4106198A8A8A00FE3EE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		151E4108198A8A8A00FE3EE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		151E4125198A8A8A00FE3EE5 /* Tah Remote.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tah Remote.temp_caseinsensitive_renameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		151E414C198A910B00FE3EE5 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		151E414D198A910B00FE3EE5 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		152E6C8919A36EC100B8DFE6 /* TAHbleTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHbleTableController.h; sourceTree = "<group>"; };
+		152E6C8A19A36EC100B8DFE6 /* TAHbleTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHbleTableController.m; sourceTree = "<group>"; };
+		15777B99198F6DDD009FDAB7 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		15777B9A198F6DDD009FDAB7 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		15777B9F198F6DEF009FDAB7 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		15777BA0198F6DEF009FDAB7 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+		15777BA2198F6DF6009FDAB7 /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
+		15777BA3198F6DF6009FDAB7 /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		15A99ACC1A654C9E0066AB4E /* TAHble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHble.h; sourceTree = "<group>"; };
+		15A99ACD1A654C9E0066AB4E /* TAHble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHble.m; sourceTree = "<group>"; };
+		15C958EC1A91BF1F00F8CAC9 /* RemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteViewController.h; sourceTree = "<group>"; };
+		15C958ED1A91BF1F00F8CAC9 /* RemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteViewController.m; sourceTree = "<group>"; };
+		844F375E26935F0F000C9F9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		844F375F26935F0F000C9F9F /* web forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web forward.png"; sourceTree = "<group>"; };
+		844F376026935F0F000C9F9F /* circbut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circbut.png; sourceTree = "<group>"; };
+		844F376126935F0F000C9F9F /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		844F376226935F0F000C9F9F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844F376326935F0F000C9F9F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		844F376426935F0F000C9F9F /* Main_iPhone3.5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone3.5.storyboard; sourceTree = "<group>"; };
+		844F376526935F0F000C9F9F /* tah rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tah rabbit.png"; sourceTree = "<group>"; };
+		844F376626935F0F000C9F9F /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		844F376726935F0F000C9F9F /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power.png; sourceTree = "<group>"; };
+		844F376826935F0F000C9F9F /* volup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volup.png; sourceTree = "<group>"; };
+		844F376926935F0F000C9F9F /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		844F376A26935F0F000C9F9F /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		844F376B26935F0F000C9F9F /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		844F376C26935F0F000C9F9F /* web backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web backward.png"; sourceTree = "<group>"; };
+		844F376D26935F0F000C9F9F /* voldown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voldown.png; sourceTree = "<group>"; };
+		844F376E26935F0F000C9F9F /* remote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remote.png; sourceTree = "<group>"; };
+		844F376F26935F0F000C9F9F /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		844F377126935F0F000C9F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		844F377226935F0F000C9F9F /* sound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound2.wav; sourceTree = "<group>"; };
+		844F377326935F0F000C9F9F /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		844F377426935F0F000C9F9F /* sound1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound1.wav; sourceTree = "<group>"; };
+		844F377526935F0F000C9F9F /* Tah Remote-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tah Remote-Prefix.pch"; sourceTree = "<group>"; };
+		844F377626935F0F000C9F9F /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		844F377726935F0F000C9F9F /* remotebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remotebg.png; sourceTree = "<group>"; };
+		844F377826935F0F000C9F9F /* chdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chdown.png; sourceTree = "<group>"; };
+		844F377926935F0F000C9F9F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844F377A26935F0F000C9F9F /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		844F377B26935F0F000C9F9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		844F377C26935F0F000C9F9F /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		844F377D26935F0F000C9F9F /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		844F377E26935F0F000C9F9F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		844F377F26935F0F000C9F9F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844F378026935F0F000C9F9F /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		844F378126935F0F000C9F9F /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
+		844F378226935F0F000C9F9F /* mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute.png; sourceTree = "<group>"; };
+		844F378326935F0F000C9F9F /* chup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chup.png; sourceTree = "<group>"; };
+		844F378426935F0F000C9F9F /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		844F378526935F0F000C9F9F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F378626935F0F000C9F9F /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		844F378726935F0F000C9F9F /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151E40FE198A8A8A00FE3EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15104E11198F99EC000D4CE7 /* AudioToolbox.framework in Frameworks */,
+				151E4107198A8A8A00FE3EE5 /* CoreGraphics.framework in Frameworks */,
+				151E4109198A8A8A00FE3EE5 /* UIKit.framework in Frameworks */,
+				151E4105198A8A8A00FE3EE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E4122198A8A8A00FE3EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151E4129198A8A8A00FE3EE5 /* UIKit.framework in Frameworks */,
+				151E4128198A8A8A00FE3EE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151E40F8198A8A8A00FE3EE5 = {
+			isa = PBXGroup;
+			children = (
+				844F375B26935F0F000C9F9F /* Tah Remote */,
+				15C958EB1A91BF0C00F8CAC9 /* Remote View Controller */,
+				15777B98198F6DC6009FDAB7 /* Settings View Controller */,
+				15777B96198F6DA3009FDAB7 /* Social View Controller */,
+				15777B95198F6D86009FDAB7 /* Media View Controller */,
+				151E4147198A8ECB00FE3EE5 /* TAH ble Table View */,
+				151E414B198A90F900FE3EE5 /* Custom Cell */,
+				151E4143198A8E8400FE3EE5 /* Tah Library */,
+				151E4103198A8A8A00FE3EE5 /* Frameworks */,
+				151E4102198A8A8A00FE3EE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		151E4102198A8A8A00FE3EE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151E4101198A8A8A00FE3EE5 /* Tah Remote.app */,
+				151E4125198A8A8A00FE3EE5 /* Tah Remote.temp_caseinsensitive_renameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		151E4103198A8A8A00FE3EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15104E10198F99EC000D4CE7 /* AudioToolbox.framework */,
+				151E4104198A8A8A00FE3EE5 /* Foundation.framework */,
+				151E4106198A8A8A00FE3EE5 /* CoreGraphics.framework */,
+				151E4108198A8A8A00FE3EE5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		151E4143198A8E8400FE3EE5 /* Tah Library */ = {
+			isa = PBXGroup;
+			children = (
+				15A99ACC1A654C9E0066AB4E /* TAHble.h */,
+				15A99ACD1A654C9E0066AB4E /* TAHble.m */,
+			);
+			name = "Tah Library";
+			sourceTree = "<group>";
+		};
+		151E4147198A8ECB00FE3EE5 /* TAH ble Table View */ = {
+			isa = PBXGroup;
+			children = (
+				152E6C8919A36EC100B8DFE6 /* TAHbleTableController.h */,
+				152E6C8A19A36EC100B8DFE6 /* TAHbleTableController.m */,
+			);
+			name = "TAH ble Table View";
+			sourceTree = "<group>";
+		};
+		151E414B198A90F900FE3EE5 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				151E414C198A910B00FE3EE5 /* CustomCell.h */,
+				151E414D198A910B00FE3EE5 /* CustomCell.m */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		15777B95198F6D86009FDAB7 /* Media View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15777B9F198F6DEF009FDAB7 /* MediaViewController.h */,
+				15777BA0198F6DEF009FDAB7 /* MediaViewController.m */,
+			);
+			name = "Media View Controller";
+			sourceTree = "<group>";
+		};
+		15777B96198F6DA3009FDAB7 /* Social View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15777BA2198F6DF6009FDAB7 /* SocialViewController.h */,
+				15777BA3198F6DF6009FDAB7 /* SocialViewController.m */,
+			);
+			name = "Social View Controller";
+			sourceTree = "<group>";
+		};
+		15777B98198F6DC6009FDAB7 /* Settings View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15777B99198F6DDD009FDAB7 /* SettingsViewController.h */,
+				15777B9A198F6DDD009FDAB7 /* SettingsViewController.m */,
+			);
+			name = "Settings View Controller";
+			sourceTree = "<group>";
+		};
+		15C958EB1A91BF0C00F8CAC9 /* Remote View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15C958EC1A91BF1F00F8CAC9 /* RemoteViewController.h */,
+				15C958ED1A91BF1F00F8CAC9 /* RemoteViewController.m */,
+			);
+			name = "Remote View Controller";
+			sourceTree = "<group>";
+		};
+		844F375B26935F0F000C9F9F /* Tah Remote */ = {
+			isa = PBXGroup;
+			children = (
+				844F375D26935F0F000C9F9F /* InfoPlist.strings */,
+				844F375F26935F0F000C9F9F /* web forward.png */,
+				844F376026935F0F000C9F9F /* circbut.png */,
+				844F376126935F0F000C9F9F /* ok.png */,
+				844F376226935F0F000C9F9F /* AppDelegate.h */,
+				844F376326935F0F000C9F9F /* HomeViewController.m */,
+				844F376426935F0F000C9F9F /* Main_iPhone3.5.storyboard */,
+				844F376526935F0F000C9F9F /* tah rabbit.png */,
+				844F376626935F0F000C9F9F /* up.png */,
+				844F376726935F0F000C9F9F /* power.png */,
+				844F376826935F0F000C9F9F /* volup.png */,
+				844F376926935F0F000C9F9F /* fb.png */,
+				844F376A26935F0F000C9F9F /* down.png */,
+				844F376B26935F0F000C9F9F /* bottom.png */,
+				844F376C26935F0F000C9F9F /* web backward.png */,
+				844F376D26935F0F000C9F9F /* voldown.png */,
+				844F376E26935F0F000C9F9F /* remote.png */,
+				844F376F26935F0F000C9F9F /* home.png */,
+				844F377026935F0F000C9F9F /* Main_iPad.storyboard */,
+				844F377226935F0F000C9F9F /* sound2.wav */,
+				844F377326935F0F000C9F9F /* left.png */,
+				844F377426935F0F000C9F9F /* sound1.wav */,
+				844F377526935F0F000C9F9F /* Tah Remote-Prefix.pch */,
+				844F377626935F0F000C9F9F /* Main_iPhone.storyboard */,
+				844F377726935F0F000C9F9F /* remotebg.png */,
+				844F377826935F0F000C9F9F /* chdown.png */,
+				844F377926935F0F000C9F9F /* main.m */,
+				844F377A26935F0F000C9F9F /* twitter.png */,
+				844F377B26935F0F000C9F9F /* Images.xcassets */,
+				844F377C26935F0F000C9F9F /* share.png */,
+				844F377D26935F0F000C9F9F /* Main_iPad.storyboard */,
+				844F377E26935F0F000C9F9F /* HomeViewController.h */,
+				844F377F26935F0F000C9F9F /* AppDelegate.m */,
+				844F378026935F0F000C9F9F /* frame.png */,
+				844F378126935F0F000C9F9F /* youtube.png */,
+				844F378226935F0F000C9F9F /* mute.png */,
+				844F378326935F0F000C9F9F /* chup.png */,
+				844F378426935F0F000C9F9F /* setting.png */,
+				844F378526935F0F000C9F9F /* Info.plist */,
+				844F378626935F0F000C9F9F /* right.png */,
+				844F378726935F0F000C9F9F /* reload.png */,
+			);
+			path = "Tah Remote";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		151E4100198A8A8A00FE3EE5 /* Tah Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151E4136198A8A8A00FE3EE5 /* Build configuration list for PBXNativeTarget "Tah Remote" */;
+			buildPhases = (
+				151E40FD198A8A8A00FE3EE5 /* Sources */,
+				151E40FE198A8A8A00FE3EE5 /* Frameworks */,
+				151E40FF198A8A8A00FE3EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tah Remote";
+			productName = TAH;
+			productReference = 151E4101198A8A8A00FE3EE5 /* Tah Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		151E4124198A8A8A00FE3EE5 /* Tah Remote Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151E4139198A8A8A00FE3EE5 /* Build configuration list for PBXNativeTarget "Tah Remote Tests" */;
+			buildPhases = (
+				151E4121198A8A8A00FE3EE5 /* Sources */,
+				151E4122198A8A8A00FE3EE5 /* Frameworks */,
+				151E4123198A8A8A00FE3EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151E412B198A8A8A00FE3EE5 /* PBXTargetDependency */,
+			);
+			name = "Tah Remote Tests";
+			productName = TAHTests;
+			productReference = 151E4125198A8A8A00FE3EE5 /* Tah Remote.temp_caseinsensitive_renameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151E40F9198A8A8A00FE3EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = dhirajjadhao;
+				TargetAttributes = {
+					151E4100198A8A8A00FE3EE5 = {
+						DevelopmentTeam = 7VA7N3EEEN;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					151E4124198A8A8A00FE3EE5 = {
+						TestTargetID = 151E4100198A8A8A00FE3EE5;
+					};
+				};
+			};
+			buildConfigurationList = 151E40FC198A8A8A00FE3EE5 /* Build configuration list for PBXProject "Tah Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 151E40F8198A8A8A00FE3EE5;
+			productRefGroup = 151E4102198A8A8A00FE3EE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				151E4100198A8A8A00FE3EE5 /* Tah Remote */,
+				151E4124198A8A8A00FE3EE5 /* Tah Remote Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151E40FF198A8A8A00FE3EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844F379226935F0F000C9F9F /* volup.png in Resources */,
+				844F378C26935F0F000C9F9F /* ok.png in Resources */,
+				844F378F26935F0F000C9F9F /* tah rabbit.png in Resources */,
+				844F37A826935F0F000C9F9F /* youtube.png in Resources */,
+				844F37A326935F0F000C9F9F /* Images.xcassets in Resources */,
+				844F37AB26935F0F000C9F9F /* setting.png in Resources */,
+				844F379A26935F0F000C9F9F /* Main_iPad.storyboard in Resources */,
+				844F37A526935F0F000C9F9F /* Main_iPad.storyboard in Resources */,
+				844F378A26935F0F000C9F9F /* web forward.png in Resources */,
+				844F379526935F0F000C9F9F /* bottom.png in Resources */,
+				844F379C26935F0F000C9F9F /* left.png in Resources */,
+				844F37AA26935F0F000C9F9F /* chup.png in Resources */,
+				844F37A026935F0F000C9F9F /* chdown.png in Resources */,
+				844F379926935F0F000C9F9F /* home.png in Resources */,
+				844F37A926935F0F000C9F9F /* mute.png in Resources */,
+				844F379626935F0F000C9F9F /* web backward.png in Resources */,
+				844F379E26935F0F000C9F9F /* Main_iPhone.storyboard in Resources */,
+				844F37A226935F0F000C9F9F /* twitter.png in Resources */,
+				844F37AD26935F0F000C9F9F /* right.png in Resources */,
+				844F378E26935F0F000C9F9F /* Main_iPhone3.5.storyboard in Resources */,
+				844F379126935F0F000C9F9F /* power.png in Resources */,
+				844F379826935F0F000C9F9F /* remote.png in Resources */,
+				844F378B26935F0F000C9F9F /* circbut.png in Resources */,
+				844F379026935F0F000C9F9F /* up.png in Resources */,
+				844F37A726935F0F000C9F9F /* frame.png in Resources */,
+				844F37A426935F0F000C9F9F /* share.png in Resources */,
+				844F37AE26935F0F000C9F9F /* reload.png in Resources */,
+				844F379726935F0F000C9F9F /* voldown.png in Resources */,
+				844F379F26935F0F000C9F9F /* remotebg.png in Resources */,
+				844F379326935F0F000C9F9F /* fb.png in Resources */,
+				844F379B26935F0F000C9F9F /* sound2.wav in Resources */,
+				844F378926935F0F000C9F9F /* InfoPlist.strings in Resources */,
+				844F379D26935F0F000C9F9F /* sound1.wav in Resources */,
+				844F379426935F0F000C9F9F /* down.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E4123198A8A8A00FE3EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151E40FD198A8A8A00FE3EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C958EE1A91BF1F00F8CAC9 /* RemoteViewController.m in Sources */,
+				15777B9B198F6DDD009FDAB7 /* SettingsViewController.m in Sources */,
+				15A99ACE1A654C9E0066AB4E /* TAHble.m in Sources */,
+				151E414E198A910B00FE3EE5 /* CustomCell.m in Sources */,
+				844F37A626935F0F000C9F9F /* AppDelegate.m in Sources */,
+				152E6C8B19A36EC100B8DFE6 /* TAHbleTableController.m in Sources */,
+				15777BA4198F6DF6009FDAB7 /* SocialViewController.m in Sources */,
+				15777BA1198F6DEF009FDAB7 /* MediaViewController.m in Sources */,
+				844F37A126935F0F000C9F9F /* main.m in Sources */,
+				844F378D26935F0F000C9F9F /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E4121198A8A8A00FE3EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151E412B198A8A8A00FE3EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151E4100198A8A8A00FE3EE5 /* Tah Remote */;
+			targetProxy = 151E412A198A8A8A00FE3EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844F375D26935F0F000C9F9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F375E26935F0F000C9F9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		844F377026935F0F000C9F9F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F377126935F0F000C9F9F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		151E4134198A8A8A00FE3EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		151E4135198A8A8A00FE3EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		151E4137198A8A8A00FE3EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7VA7N3EEEN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Tah Remote/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvt.test;
+				PRODUCT_NAME = "Tah Remote";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		151E4138198A8A8A00FE3EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7VA7N3EEEN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Tah Remote/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvt.test;
+				PRODUCT_NAME = "Tah Remote";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		151E413A198A8A8A00FE3EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TAH/TAH-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TAHTests/Tah.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = "Tah Remote.temp_caseinsensitive_renameTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tah Remote.app/Tah Remote";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		151E413B198A8A8A00FE3EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TAH/TAH-Prefix.pch";
+				INFOPLIST_FILE = "TAHTests/Tah.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = "Tah Remote.temp_caseinsensitive_renameTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tah Remote.app/Tah Remote";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151E40FC198A8A8A00FE3EE5 /* Build configuration list for PBXProject "Tah Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151E4134198A8A8A00FE3EE5 /* Debug */,
+				151E4135198A8A8A00FE3EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151E4136198A8A8A00FE3EE5 /* Build configuration list for PBXNativeTarget "Tah Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151E4137198A8A8A00FE3EE5 /* Debug */,
+				151E4138198A8A8A00FE3EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151E4139198A8A8A00FE3EE5 /* Build configuration list for PBXNativeTarget "Tah Remote Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151E413A198A8A8A00FE3EE5 /* Debug */,
+				151E413B198A8A8A00FE3EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 151E40F9198A8A8A00FE3EE5 /* Project object */;
+}
